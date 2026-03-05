@@ -11,7 +11,7 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: Optional[Node]) -> Optional[Node]:
-        # Use hashmap to map original nodes to copied nodes
+        # Idea: hashmap to map original nodes to copied nodes
         # Time: O(n), Space: O(n)
         
         if not head:

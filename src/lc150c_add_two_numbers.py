@@ -10,7 +10,7 @@ class ListNode:
 
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        # Traverse both lists, add digits with carry
+        # thoughts: Traverse both lists, add digits with carry
         # Time: O(max(m, n)), Space: O(max(m, n))
         
         dummy = ListNode()

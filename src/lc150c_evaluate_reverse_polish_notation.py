@@ -3,9 +3,8 @@ from typing import List
 
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
-        # Stack-based evaluation
-        # Numbers: push to stack
-        # Operators: pop two operands, compute, push result
+        # use stack
+        # mechanism pop two operands, compute, push result
         # Time: O(n), Space: O(n)
         
         stack = []
